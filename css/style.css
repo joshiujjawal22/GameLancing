@@ -7,33 +7,47 @@ h1{
 }
 
 .cover{
-	background: /*linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),*/url("../img/cover.jpg");
+	background: linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),url("../img/cover.jpg");
 	background-repeat: no-repeat;
-	background-size: 1600px 620px;
+	background-size: 100% 100%;
 	min-height: 85vh;
 	z-index: 0.1;
 }
 
 .navi{
-	background-color: black;
-	opacity: 0.4;
+	background: linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3));
 	height: 10vh;
 	width: 100vw;
 	position:fixed;
 	z-index: 1;
 	color: white;
-	text-align: center;
 }
 
-.navi img{
-	height: 60px;
-	width: 100px;
+.navi a img{
+	padding: 7px 10px 7px 30px;
+	opacity: 1;
+}
 
+.navi ul li{
+	display: inline;	
+}
+
+.navi ul{
+	padding-right: 40px;	
+}
+.navi ul li svg{
+	padding: 7px 7px 7px 10px;
+	width: 50px;
+	height: 50px;
 }
 
 .AbtUs{
 	border:solid black 1px;
-	min-height:300px;
+	min-height:250px;
+	background-color: #1f1f1f;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
 }
 
 .org_games{
