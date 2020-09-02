@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+}
+
+.cover{
+	background: /*linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),*/url("./cover.jpg");
+	background-repeat: no-repeat;
+	background-size: 1600px 575px;
+	min-height: 85vh;
+	z-index: 0.1;
+}
+
+.navi{
+	background-color: black;
+	opacity: 0.4;
+	height: 10vh;
+	width: 100vw;
+	position:fixed;
+	z-index: 1;
+	color: white;
+	text-align: center;
+}
+
+.navi img{
+	height: 60px;
+	width: 100px;
+
+}
+
+.AbtUs{
+	border:solid black 1px;
+	min-height:300px;
+}
+
+.org_games{
+	border:solid black 1px;
+	min-height:300px;
+}
+
+.what_we_do{
+	border:solid black 1px;
+	min-height:300px;
+}
+
+.subscribe{
+	background-color: #1f1f1f;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+}
+
+.subscribe h1{
+	padding: 10px;
+}
+
+.subscribe input{
+	outline: none;
+	height: 30px;
+	width: 250px;
+	background-color: transparent;
+	border-width:1px;
+	border-color: white;
+}
+
