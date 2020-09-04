@@ -7,7 +7,7 @@ h1{
 }
 
 .cover{
-	background: linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),url("../img/cover.jpg");
+	background: /*linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),*/url("../img/cover.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	min-height: 85vh;
@@ -28,14 +28,17 @@ h1{
 	opacity: 1;
 }
 
+.navi ul{
+	padding-right: 60px;
+	float: right;	
+}
+
 .navi ul li{
 	display: inline;	
 }
 
-.navi ul{
-	padding-right: 40px;	
-}
-.navi ul li svg{
+
+.navi ul li img{
 	padding: 7px 7px 7px 10px;
 	width: 50px;
 	height: 50px;
