@@ -7,15 +7,17 @@ h1{
 }
 
 .cover{
-	background: /*linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3)),*/url("../img/cover.jpg");
+	background: linear-gradient(to top,rgba(20,18,19,0.5) 0%, rgba(20,18,19,0.5) 90%, rgba(20,18,19,0.5) 100% ),url("../img/cover.jpg");
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	min-height: 85vh;
+	background-size: cover;
+	min-height: 100vh;
+	min-width: 100vw;
+	background-position: center;
 	z-index: 0.1;
 }
 
 .navi{
-	background: linear-gradient(to top,rgba(126, 15, 75,0.3), rgba(26, 88, 101, 0.3));
+	background: linear-gradient(to top,rgba(20,18,19,0.5) 0%, rgba(20,18,19,0.6) 90%, rgba(20,18,19,1) 100% );
 	height: 10vh;
 	width: 100vw;
 	position:fixed;
@@ -40,8 +42,8 @@ h1{
 
 .navi ul li img{
 	padding: 10px 7px 7px 10px;
-	width: 50px;
-	height: 50px;
+	width: 40px;
+	height: 40px;
 }
 
 .navi ul li img:hover{
