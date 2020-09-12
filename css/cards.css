@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Mukta+Malar:400,700,800");
-
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
 
 .card-wrap {
   width: 75%;
@@ -42,7 +41,7 @@
   transition: all 350ms ease-out 0s;
 }
 .card__info {
-  padding: 0 0 3rem 0;
+  padding: 0 0 1rem 0;
   width: 100%;
   text-align: center;
   color: white;
@@ -53,8 +52,9 @@
 .card__title {
   font-size: 1.8rem;
   font-weight: 800;
-  margin-bottom: .5rem;
+  margin-bottom: 0.2rem;
   text-align: center;
+  font-family: 'Gayathri', sans-serif;
 }
 
 a.card {
