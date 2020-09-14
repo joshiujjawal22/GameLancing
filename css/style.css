@@ -255,12 +255,26 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 }
 
-.subscribe input{
+.subscribe input[type=text]{
 	outline: none;
 	height: 30px;
 	width: 250px;
 	background-color: transparent;
 	border-width:1px;
 	border-color: white;
+	font-family: roboto,sans-serif; 
+	margin: 10px;
+	color: #7f8c8d;
 }
 
+.subscribe input[type=submit]{
+	outline: none;
+	height: 30px;
+	width: 200px;
+	background-color: #1abc9c;
+	border-width:1px;
+	border-color: white;
+	font-family: roboto,sans-serif;
+	font-weight: bold;
+	margin: 10px;
+}
