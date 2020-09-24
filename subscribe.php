@@ -20,7 +20,7 @@ $sender = "info@gamelancing.com";
 # MAIL BODY
 $body .= "Name: ".$_REQUEST['Name']." \n";
 $body .= "Email: ".$_REQUEST['Email']." \n";
-# add more fields here if required
+
 
 ## SEND MESSGAE ##
 
@@ -29,4 +29,31 @@ mail( $recipient, $subject, $body, "From: $sender" ) or die ("Mail could not be 
 ## SHOW RESULT PAGE ##
 
 header( "Location: $location" );
+
+
+$servername = "localhost";
+$database = "databasename";
+$username = "name";
+$password = "password";
+$table = "subscribe_data";
+
+// Name and email for database
+$name= $_POST['Name'];
+$email= $_POST['Email'];
+
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $database);
+
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+$query= "INSERT INTO $table  ". "VALUES ('$name', '$email')";
+
+mysqli_query ($conn, $query) 
+or die ("Error querying database"); 
+
+echo "Connected successfully";
+mysqli_close($conn);
 ?>
