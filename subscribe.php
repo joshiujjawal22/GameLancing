@@ -9,7 +9,7 @@ $recipient = $_REQUEST['Email'];
 $subject = "Subscribe";
 
 # RESULT PAGE
-$location = "index.html";
+$location = "/";
 
 ## FORM VALUES ##
 
@@ -18,8 +18,8 @@ $location = "index.html";
 $sender = "info@gamelancing.com";
 
 # MAIL BODY
-$body .= "Name: ".$_REQUEST['Name']." \n";
-$body .= "Email: ".$_REQUEST['Email']." \n";
+$body .= "Hi ".$_REQUEST['Name'].",\n";
+$body .= "Thanks for subscribing to gamelancing newsletter.You will now get an email each time we organise a game.";
 
 
 ## SEND MESSGAE ##
